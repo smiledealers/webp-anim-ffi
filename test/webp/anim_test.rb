@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class Webp::AnimTest < Minitest::Test
+class WebP::AnimTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Webp::Anim::VERSION
+    refute_nil ::WebP::Anim::VERSION
   end
 
   def test_it_does_something_useful
